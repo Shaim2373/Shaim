@@ -17,11 +17,12 @@ const Blog = () => {
                 <p className='text-3xl font-bold my-3'>How does the private route work?</p>
                 <p>The private route component is similar to the public route, the only change is that redirect URL and authenticate condition. If the user is not authenticated he will be redirected to the login page and the user can only access the authenticated routes If he is authenticated (Logged in).</p>
             </div>
-            
+
             <div className='bg-indigo-600 p-8 text-white mx-auto my-10 lg:w-9/12'>
                 <p className='text-3xl font-bold my-3'>What is Node? How does Node work?</p>
                 <p>It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive</p>
             </div>
+            
         </div>
     );
 };
