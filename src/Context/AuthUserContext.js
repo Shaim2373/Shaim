@@ -13,7 +13,6 @@ const AuthUserContext = ({ children }) => {
 
 
 
-
     const googleProviderLogin = googleProvider => {
         setLoad(true)
         return signInWithPopup(auth, googleProvider)
