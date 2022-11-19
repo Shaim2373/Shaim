@@ -7,7 +7,6 @@ const CheckOut = () => {
     return (
         <div>
             <p className='text-center text-4xl font-extrabold shadow-lg p-12 m-5'>Successfully Access For <span className='text-red-600 font-extrabold'>{name}</span> Course</p>
-
         </div>
     );
 };
