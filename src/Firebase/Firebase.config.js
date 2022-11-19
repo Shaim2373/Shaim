@@ -3,17 +3,15 @@ import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAHnFbE4-tt97s7jUY-B4sMJb9EBVEKuV4",
-  authDomain: "myproject-6f7db.firebaseapp.com",
-  projectId: "myproject-6f7db",
-  storageBucket: "myproject-6f7db.appspot.com",
-  messagingSenderId: "670847221806",
-  appId: "1:670847221806:web:ee443a4e9c24ca1c041fbf"
+  apiKey: "AIzaSyC97uOKCOg4vWGrvPNCMiZxEEAJrmIjO54",
+  authDomain: "my-assignments-10.firebaseapp.com",
+  projectId: "my-assignments-10",
+  storageBucket: "my-assignments-10.appspot.com",
+  messagingSenderId: "139162574718",
+  appId: "1:139162574718:web:75be8e2fe589cf9b949d2f"
 };
-
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
